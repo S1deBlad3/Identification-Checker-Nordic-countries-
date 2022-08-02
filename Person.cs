@@ -86,10 +86,10 @@ namespace Inlämningsuppgift_3_WindowsFormApplication
              * Detta gör vi genom att kolla om siffran är jämn eller ojämn
              */
 
-            if (nums[9] % 2 == 0)
+            if (nums[8] % 2 == 0)
             {
                 gender = "Female";
-            }else if(nums[9] % 2 == 1)
+            }else if(nums[8] % 2 == 1)
             {
                 gender = "Man";
             }
@@ -185,7 +185,7 @@ namespace Inlämningsuppgift_3_WindowsFormApplication
 
             sum /= 10;
 
-            if (sum % 2 == 0)
+            if (sum % 2 == 0 || sum == 1)
             {
                 isValidPerson = true;
                 return true;
